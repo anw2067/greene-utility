@@ -1,0 +1,9 @@
+# @package _global_
+experiment: example_exp
+
+# experiment args
+output_dir: ${join_path:${hydra:sweep.dir},${hydra:sweep.subdir}}
+
+# experiment params
+iter_time: 7
+iters: 3
